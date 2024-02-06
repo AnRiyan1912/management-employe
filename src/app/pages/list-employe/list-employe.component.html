@@ -1,1 +1,10 @@
-<p>list-employe works!</p>
+<div>
+  <div class="grid grid-cols-5 max-md:grid-cols-1">
+    <div *ngFor="let employe of listEmployes" class="flex justify-center">
+      <app-card [employe]="employe" (delete)="deleteEmploye($event)"></app-card>
+    </div>
+  </div>
+  <div class="flex justify-center mt-20 mb-20">
+    <app-pagination (pageChange)="setPage($event)" [totalEmploye]="listEmployes.length"></app-pagination>
+  </div>
+</div>

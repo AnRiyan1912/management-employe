@@ -4,7 +4,6 @@
 >
   <div class="flex w-full flex-wrap items-center justify-between px-3">
     <div class="flex items-center">
-      <!-- Hamburger menu button -->
       <button
         class="border-0 bg-transparent px-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden md:hidden"
         type="button"
@@ -14,7 +13,6 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <!-- Hamburger menu icon -->
         <span class="[&>svg]:w-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +32,6 @@
       </button>
     </div>
 
-    <!-- Navigation links -->
     <div
       class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
       id="navbarSupportedContentY"
@@ -43,28 +40,26 @@
       <ul class="mr-auto flex flex-col lg:flex-row" data-te-navbar-nav-ref>
         <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a
-            class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-            href="#!"
+            class="hover:cursor-pointer block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
             data-te-nav-link-ref
             data-te-ripple-init
             data-te-ripple-color="light"
-            >Home</a
+            (click)="navigateToListEmploye()"
+            >List employe</a
           >
         </li>
         <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a
             class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-            href="#!"
             data-te-nav-link-ref
             data-te-ripple-init
             data-te-ripple-color="light"
-            >Features</a
+            >About</a
           >
         </li>
         <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
           <a
             class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-            href="#!"
             data-te-nav-link-ref
             data-te-ripple-init
             data-te-ripple-color="light"
@@ -78,14 +73,13 @@
             data-te-nav-link-ref
             data-te-ripple-init
             data-te-ripple-color="light"
-            >About</a
-          >
+          ></a>
         </li>
       </ul>
-      <ul class="flex gap-20 items-center">
+      <ul class="flex gap-20 items-center max-sm:gap-2">
         <li>
           <div class="flex items-center">
-             <span class="ml-2">
+            <span class="ml-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -103,15 +97,40 @@
             <input
               type="text"
               placeholder="Search employee"
-              class="border-b border-black outline-none w-96 px-1 py-2 max-sm:w-60 "
+              class="border-b border-black outline-none w-96 px-1 py-2 max-sm:w-60"
             />
-           
           </div>
         </li>
         <li>
-          <button class="px-3 py-2 bg-red-400 text-white text-base ">
-            Add Employee
-          </button>
+          <div class="relative">
+            <img
+              src="https://campuspedia.id/diskusi/img/profile.png"
+              alt=""
+              class="w-10 h-10 cursor-pointer"
+              (click)="toggleDropdown()"
+            />
+            <div
+              *ngIf="isDropdownOpen"
+              class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg"
+            >
+              <ul class="py-1">
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    >Username</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                    >Logout</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </li>
       </ul>
     </div>

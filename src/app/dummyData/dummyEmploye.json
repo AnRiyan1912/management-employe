@@ -1,0 +1,302 @@
+[
+  {
+    "username": "user1",
+    "firtsName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "birthDate": "1990-05-15",
+    "basicSalary": "50000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user2",
+    "firtsName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "birthDate": "1988-08-22",
+    "basicSalary": "55000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user3",
+    "firtsName": "David",
+    "lastName": "Williams",
+    "email": "david.williams@example.com",
+    "birthDate": "1992-03-10",
+    "basicSalary": "52000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user4",
+    "firtsName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@example.com",
+    "birthDate": "1995-12-05",
+    "basicSalary": "48000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user5",
+    "firtsName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@example.com",
+    "birthDate": "1987-09-18",
+    "basicSalary": "60000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user6",
+    "firtsName": "Sophia",
+    "lastName": "Miller",
+    "email": "sophia.miller@example.com",
+    "birthDate": "1993-07-03",
+    "basicSalary": "53000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user7",
+    "firtsName": "Daniel",
+    "lastName": "Davis",
+    "email": "daniel.davis@example.com",
+    "birthDate": "1989-11-28",
+    "basicSalary": "51000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user8",
+    "firtsName": "Ava",
+    "lastName": "Jackson",
+    "email": "ava.jackson@example.com",
+    "birthDate": "1991-06-14",
+    "basicSalary": "58000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user9",
+    "firtsName": "James",
+    "lastName": "Moore",
+    "email": "james.moore@example.com",
+    "birthDate": "1994-02-09",
+    "basicSalary": "54000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user10",
+    "firtsName": "Olivia",
+    "lastName": "Taylor",
+    "email": "olivia.taylor@example.com",
+    "birthDate": "1986-10-24",
+    "basicSalary": "49000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user11",
+    "firtsName": "Ethan",
+    "lastName": "White",
+    "email": "ethan.white@example.com",
+    "birthDate": "1996-08-07",
+    "basicSalary": "56000",
+    "status": "Inactive",
+    "group": "Finance"
+  },
+  {
+    "username": "user12",
+    "firtsName": "Chloe",
+    "lastName": "Anderson",
+    "email": "chloe.anderson@example.com",
+    "birthDate": "1992-05-18",
+    "basicSalary": "52000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user13",
+    "firtsName": "Mason",
+    "lastName": "Brown",
+    "email": "mason.brown@example.com",
+    "birthDate": "1988-12-15",
+    "basicSalary": "59000",
+    "status": "Active",
+    "group": "HR"
+  },
+  {
+    "username": "user14",
+    "firtsName": "Lily",
+    "lastName": "Carter",
+    "email": "lily.carter@example.com",
+    "birthDate": "1991-03-30",
+    "basicSalary": "55000",
+    "status": "Inactive",
+    "group": "Finance"
+  },
+  {
+    "username": "user15",
+    "firtsName": "Jackson",
+    "lastName": "Davis",
+    "email": "jackson.davis@example.com",
+    "birthDate": "1987-10-12",
+    "basicSalary": "51000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user16",
+    "firtsName": "Grace",
+    "lastName": "Evans",
+    "email": "grace.evans@example.com",
+    "birthDate": "1994-07-25",
+    "basicSalary": "60000",
+    "status": "Active",
+    "group": "HR"
+  },
+  {
+    "username": "user17",
+    "firtsName": "Noah",
+    "lastName": "Fisher",
+    "email": "noah.fisher@example.com",
+    "birthDate": "1985-04-02",
+    "basicSalary": "53000",
+    "status": "Inactive",
+    "group": "IT"
+  },
+  {
+    "username": "user18",
+    "firtsName": "Emma",
+    "lastName": "Gordon",
+    "email": "emma.gordon@example.com",
+    "birthDate": "1993-12-18",
+    "basicSalary": "57000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user19",
+    "firtsName": "Liam",
+    "lastName": "Harrison",
+    "email": "liam.harrison@example.com",
+    "birthDate": "1989-09-05",
+    "basicSalary": "54000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user20",
+    "firtsName": "Avery",
+    "lastName": "Irwin",
+    "email": "avery.irwin@example.com",
+    "birthDate": "1995-02-28",
+    "basicSalary": "52000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user21",
+    "firtsName": "Elijah",
+    "lastName": "Jackson",
+    "email": "elijah.jackson@example.com",
+    "birthDate": "1990-11-14",
+    "basicSalary": "58000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user22",
+    "firtsName": "Mia",
+    "lastName": "Johnson",
+    "email": "mia.johnson@example.com",
+    "birthDate": "1991-06-29",
+    "basicSalary": "55000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user23",
+    "firtsName": "Carter",
+    "lastName": "Moore",
+    "email": "carter.moore@example.com",
+    "birthDate": "1986-03-12",
+    "basicSalary": "59000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user24",
+    "firtsName": "Aria",
+    "lastName": "Parker",
+    "email": "aria.parker@example.com",
+    "birthDate": "1994-08-18",
+    "basicSalary": "53000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user25",
+    "firtsName": "Owen",
+    "lastName": "Smith",
+    "email": "owen.smith@example.com",
+    "birthDate": "1988-05-05",
+    "basicSalary": "51000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user26",
+    "firtsName": "Hannah",
+    "lastName": "Taylor",
+    "email": "hannah.taylor@example.com",
+    "birthDate": "1992-02-20",
+    "basicSalary": "60000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user27",
+    "firtsName": "Lucas",
+    "lastName": "Williams",
+    "email": "lucas.williams@example.com",
+    "birthDate": "1995-07-15",
+    "basicSalary": "56000",
+    "status": "Active",
+    "group": "Finance"
+  },
+  {
+    "username": "user28",
+    "firtsName": "Abigail",
+    "lastName": "Young",
+    "email": "abigail.young@example.com",
+    "birthDate": "1989-12-30",
+    "basicSalary": "54000",
+    "status": "Active",
+    "group": "IT"
+  },
+  {
+    "username": "user29",
+    "firtsName": "Isaac",
+    "lastName": "Zimmerman",
+    "email": "isaac.zimmerman@example.com",
+    "birthDate": "1987-10-02",
+    "basicSalary": "49000",
+    "status": "Inactive",
+    "group": "HR"
+  },
+  {
+    "username": "user30",
+    "firtsName": "Eva",
+    "lastName": "Davis",
+    "email": "eva.davis@example.com",
+    "birthDate": "1991-05-18",
+    "basicSalary": "57000",
+    "status": "Active",
+    "group": "Finance"
+  }
+]

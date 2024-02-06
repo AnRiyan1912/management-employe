@@ -1,1 +1,63 @@
-<p>detail-employe works!</p>
+<div class="flex justify-center items-center mt-20">
+
+  <div
+    class="block w-3/4 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+  >
+    <div
+      class="relative overflow-hidden bg-cover bg-no-repeat flex justify-center"
+    >
+      <img
+        class="rounded-t-lg w-80"
+        src="https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg"
+        alt=""
+      />
+    </div>
+    <div class="p-6">
+      <h5
+        class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50"
+      >
+        Username: {{ (employe$ | async)?.username }}
+      </h5>
+    </div>
+    <ul class="w-full">
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        First name: {{(employe$ | async)?.firtsName}}
+      </li>
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Last name: {{(employe$ | async)?.lastName}}
+      </li>
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Email:  {{(employe$ | async)?.email}}
+      </li>
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Birth date: {{(employe$ | async)?.birthDate}}
+      </li>
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Basic salary: {{(employe$ | async)?.basicSalary}}
+      </li>
+
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Status: {{(employe$ | async)?.status}}
+      </li>
+
+      <li
+        class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50"
+      >
+        Group: {{(employe$ | async)?.group}}
+      </li>
+    </ul>
+  
+  </div>
+</div>

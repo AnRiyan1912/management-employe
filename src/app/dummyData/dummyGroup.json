@@ -1,0 +1,12 @@
+[
+  { "groupName": "IT" },
+  { "groupName": "HR" },
+  { "groupName": "Finance" },
+  { "groupName": "Marketing" },
+  { "groupName": "Operations" },
+  { "groupName": "Sales" },
+  { "groupName": "Customer Support" },
+  { "groupName": "Research and Development" },
+  { "groupName": "Quality Assurance" },
+  { "groupName": "Administration" }
+]

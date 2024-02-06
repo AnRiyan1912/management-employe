@@ -1,0 +1,26 @@
+<nav aria-label="Page navigation example">
+  <ul class="list-style-none flex">
+    <li>
+      <button (click)="onPreviousPage()" class="bg-slate-300 rounded-lg">
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          >Previous</a
+        >
+      </button>
+    </li>
+    <li>
+      <a
+        class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+        >{{ currentPage }}</a
+      >
+    </li>
+    <li>
+      <button (click)="onNextPage()" class="bg-slate-300 rounded-lg" [disabled]="totalEmploye < 10">
+        <a
+          class="relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-300 hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-700 dark:hover:text-white"
+          >Next</a
+        >
+      </button>
+    </li>
+  </ul>
+</nav>

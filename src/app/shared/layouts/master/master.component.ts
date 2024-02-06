@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from '../navbar/navbar.component';
-import { Collapse, Ripple, initTE } from 'tw-elements';
 
 @Component({
   selector: 'app-master',
